@@ -1,0 +1,48 @@
+body {
+    background-color: blueviolet;
+}
+h1 {
+    color: cornsilk;
+    text-align: center;
+    border:black;
+    border-color: black;
+}
+p{
+
+    font-family: Verdana;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    background-color: blanchedalmond;
+    display:block;
+
+}
+h2{
+    color: maroon;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+div{
+    color: mintcream;
+    list-style: circle;
+
+}
+nav ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    background-color: yellowgreen;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
