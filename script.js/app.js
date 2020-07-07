@@ -1,37 +1,68 @@
-var name = prompt("enter your name", "name")
-alert("welcome"+name);
+'use strict';
+var username = prompt ('welcome to the game! what is your name?');
+console.log('User answer was ' + username);
+alert ('Welcome ' + username + '! hope you\'ll answer them all correct!');
 
-        alert("please the following questions by yes or no");
-        var guitar = prompt("do you love guitar", "yes");
-        console.log("do you love guitar", guitar);
-        var look = prompt("do you loocking for someone who teach you playing guitar", "yes");
-        console.log("do you loocking for someone who teach you playing guitar", look);
-        var amman = prompt("do you live in amman", "yes");
-        console.log("do you live in amman", amman);
-        var salsbeel = prompt("do you heard about my company ", "yes");
-        console.log("do you heard about my company", salsbeel);
-        alert(`guitar ${guitar}\n looking-for ${look}\n live in amman  ${amman}\n salsbeelcompany ${salsbeel}\n`)
-        console.log(guitar, look, amman, salsbeel);
-        
-        
-        var bella = 0;
-        if (guitar === "yes") bella++
-        if (look === "yes") bella++
-        if (amman === "yes") bella++
-        if (salsbeel === "yes")bella++
-        console.log(bella);
-        // give user a rank
-        let rank;
-        if (bella === 0) rank = "noob"
-        if (bella === 1) rank = "rookie"
-        if (bella === 2) rank = "moderate"
-        if (bella === 3) rank = "pro"
-        if (bella === 4) rank = "Ibn-Batoota"
-        console.log(rank);
-        alert(`Hello ${name}. your adventure meter is ${travelMeter} and your rank is ${rank}`)
-        document.querySelector(".name").innerHTML = name
-        document.querySelector(".rank").innerHTML = rank
-        document.querySelector(".guitar").innerHTML = "do you love guitar" + guitar
-        document.querySelector(".look").innerHTML = "do you loocking for someone who teach you playing guitar" + look
-        document.querySelector(".amman").innerHTML = "do you live in amman " + amman
-        document.querySelector(".salsbeel").innerHTML = "do heard about my company " + salsbeel
+var answer1 = prompt('guess my name');
+console.log('User answer was ' + answer1.toLowerCase());
+if (answer1.toLowerCase() == 'salsbeel' ) {
+  alert ('yaay! you know my name');
+  console.log('Correct Answer');
+
+} else {
+  alert ('Oops! you don\'t know my name');
+  console.log('Wrong answer');
+}
+
+
+var answer2 = prompt('Do I love my old guitar ?');
+console.log('User answer was ' + answer2.toLowerCase());
+
+if (answer2.toLowerCase() == 'yes') {
+  alert ('yaay! I really love my old guitar!');
+  console.log('Correct Answer');
+
+} else {
+  alert ('Oops! I do love it');
+  console.log('Wrong answer');
+}
+
+
+var answer3 = prompt ('Do I manage the content of my repositories or someone else do it for me?');
+console.log('User answer was ' + answer3.toLowerCase());
+
+if (answer3.toLowerCase() === 'yes') {
+  alert ('yeah I manage them by myself!');
+  console.log('Correct Answer');
+} else {
+  alert ('that\'s impossible to let someone manage my repo ;)');
+  console.log('Wrong answer');
+}
+
+var answer4 = prompt ('do i love sport');
+console.log('User answer was ' + answer4.toLowerCase());
+
+if (answer4.toLowerCase() === 'yes') {
+  alert ('sure i adore it');
+  console.log('Correct Answer');
+} else {
+  alert ('no actually i adore it ');
+  console.log('Wrong answer');
+}
+
+var answer5 = prompt ('Did I work in my free time ?');
+console.log('User answer was ' + answer5.toLowerCase());
+
+if (answer5.toLowerCase() === 'yes') {
+  alert ('yes i do ');
+  console.log('Correct Answer');
+} else {
+  alert ('no , i actully do ');
+  console.log('Wrong answer');
+}
+
+
+
+
+
+alert ('Good Job ' + username + '!');
