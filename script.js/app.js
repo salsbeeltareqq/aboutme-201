@@ -212,6 +212,7 @@ function sixthQestion() {
       MyguitarModel[1] +
       " & " +
       MyguitarModel[2]
+    
   );
 
   alert("your score is " + score + " out of 7");
