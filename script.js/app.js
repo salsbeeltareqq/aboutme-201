@@ -205,8 +205,6 @@ function sixthQestion() {
   }
   alert(
     "The guitars which I love are " +
-      MyguitarModel[0] +
-      " & " +
       MyguitarModel[1] +
       " & " +
       MyguitarModel[2]
