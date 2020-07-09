@@ -205,8 +205,11 @@ function sixthQestion() {
   }
   alert(
     "The guitars which I love are " +
+<<<<<<< HEAD
       MyguitarModel[0] +
       " & " +
+=======
+>>>>>>> 07b11c6d247994f187847b3380212029e9e76d63
       MyguitarModel[1] +
       " & " +
       MyguitarModel[2]
@@ -218,4 +221,8 @@ function sixthQestion() {
   } else {
     alert("you can play it many times if you want");
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 07b11c6d247994f187847b3380212029e9e76d63
